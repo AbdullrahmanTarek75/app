@@ -1,0 +1,3 @@
+streamlit==1.39.0  # or your preferred version
+streamlit-option-menu
+pandas  # Include other packages as needed
