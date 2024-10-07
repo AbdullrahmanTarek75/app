@@ -25,7 +25,7 @@ with st.sidebar:
 # Home Page
 if option == "Home":
     st.title("Welcome to Our Clothing Brand!")
-    st.image("E:/هام/websites/Local Brand/OIP.jpeg", width=300)
+    st.image("OIP.jpeg", width=300)
     st.write("""
         We offer the finest quality clothing tailored for you. 
         Explore our collection and find the perfect outfit that suits your style.
@@ -46,7 +46,7 @@ elif option == "Products":
 
     # Product 1: Bink outfit
     with col1:
-        st.image("E:/هام/websites/Local Brand/OIP (1).jpeg", caption="Bink outfit")
+        st.image("OIP (1).jpeg", caption="Bink outfit")
         st.write("Price: 2000$")
         size = st.selectbox("Select Size", ["S", "M", "L", "XL"], key="size_bink_outfit")
         if st.button("Add to Basket", key="Bink outfit"):
@@ -54,7 +54,7 @@ elif option == "Products":
 
     # Product 2: Classic Collection
     with col2:
-        st.image("E:/هام/websites/Local Brand/recommend_0726_EU.jpg", caption="Classic Collection")
+        st.image("recommend_0726_EU.jpg", caption="Classic Collection")
         st.write("Price: 500$")
         size = st.selectbox("Select Size", ["S", "M", "L", "XL"], key="size_classic_collection")
         if st.button("Add to Basket", key="Classic Collection"):
@@ -62,7 +62,7 @@ elif option == "Products":
 
     # Product 3: Brown Collection
     with col3:
-        st.image("E:/هام/websites/Local Brand/th.jpeg", caption="Brown Collection")
+        st.image("th.jpeg", caption="Brown Collection")
         st.write("Price: 1000$")
         size = st.selectbox("Select Size", ["S", "M", "L", "XL"], key="size_brown_collection")
         if st.button("Add to Basket", key="Brown Collection"):
